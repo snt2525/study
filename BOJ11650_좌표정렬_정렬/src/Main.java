@@ -6,12 +6,6 @@ class Pair{
 		this.x = x;
 		this.y = y;
 	}
-	int getX() {
-		return x;
-	}
-	int getY() {
-		return y;
-	}
 }
 
 public class Main {
@@ -33,7 +27,6 @@ public class Main {
 				}
 				return Integer.compare(arg0.x, arg1.x);
 			}
-			
 		});
 	
 		for(int i = 0;i < n;i++)
